@@ -62,14 +62,20 @@ function CheckOut() {
             </div>
             {ItemFree.map((item) => (
               <div className="feature">
-                <div className="feature-icon">
-                  <AiOutlineCheck />
+                <div className="mx-2">
+                  <div className="feature-icon">
+                    <AiOutlineCheck />
+                  </div>
                 </div>
                 <div>{item.title}</div>
               </div>
             ))}
-            <div className="checkout-btn">Sign Up</div>
-            <div className="checkout-status">Experience Now</div>
+            <div className="d-flex justify-content-center ">
+              <div className="checkout-btn">Sign Up</div>
+            </div>
+            <div className="d-flex justify-content-center">
+              <div className="checkout-status">Experience Now</div>
+            </div>
           </div>
           <div className="checkout-select">
             <div>
@@ -83,14 +89,20 @@ function CheckOut() {
             </div>
             {ItemLoading.map((item) => (
               <div className="feature">
-                <div className="feature-icon">
-                  <AiOutlineCheck />
+                <div className="mx-2">
+                  <div className="feature-icon ">
+                    <AiOutlineCheck />
+                  </div>
                 </div>
                 <div>{item.title}</div>
               </div>
             ))}
-            <div className="d-flex "><div className="checkout-btn">Subcribe</div></div>
-            <div className="checkout-status">Coming Soon</div>
+            <div className="d-flex justify-content-center">
+              <div className="checkout-btn">Subcribe</div>
+            </div>
+            <div className="d-flex justify-content-center">
+              <div className="checkout-status">Coming Soon</div>
+            </div>
           </div>
         </div>
       </div>

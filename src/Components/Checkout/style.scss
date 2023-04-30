@@ -28,15 +28,17 @@
     }
     .checkout-select {
         width: 20rem;
-        border: 0.1rem solid gray ;
         padding: 0.5rem;
         margin-left: 1rem;
+        box-shadow: 0 0 10px 2px rgb(0 0 0 / 0.1);
       .select-name {
         display: flex;
         justify-content: center;
         background-color: orange;
         color: white;
         width: 8rem;
+        transform:  translateY(-1.25rem);
+        border-radius: 0.3rem;
       }
     }
     .checkout-title{
@@ -49,6 +51,18 @@
     .feature{
         display: flex;
         padding: 0.5rem 1rem ;
+        .feature-icon{
+          padding: 0.3rem 0.5rem;
+          border-radius: 100rem;
+          background-color: rgb(43, 97, 243);
+          color: white;
+        }
+    }
+    .checkout-btn{
+      padding: 0.5rem 1rem;
+      background-color: black;
+      color: white;
+      border-radius: 0.3rem;
     }
   }
 }
