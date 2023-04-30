@@ -47,6 +47,7 @@
       align-items: center;
       padding: 0.7rem 3rem;
       font-weight: 500;
+      justify-content: center;
 
       .btn-icon {
         font-size: 1.2rem;
@@ -62,8 +63,7 @@
       padding: 0.9rem 3rem;
       font-weight: 500;
       margin-left: 1rem;
-      border-top-right-radius: 0.3rem;
-      border-bottom-right-radius: 0.3rem;
+      justify-content: center;
     }
   }
   .footer {
