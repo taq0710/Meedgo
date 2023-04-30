@@ -1,0 +1,38 @@
+.items-container {
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .items-left {
+    margin-right: 8rem;
+    .item-title {
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: rgb(57, 107, 245);
+    }
+    .item-content {
+      font-weight: 500;
+      margin-top: 1rem;
+    }
+    .item-btn {
+      padding: 0.8rem 1rem;
+      background-color: black;
+      color: white;
+      width: 12rem;
+      margin-top: 1rem;
+      border-radius: 0.4rem;
+      div {
+        justify-content: center;
+        .btn-title {
+          font-weight: 600;
+          margin-right: 0.8rem;
+        }
+      }
+    }
+  }
+
+  .image-right {
+    width: 60rem;
+  }
+}
